@@ -395,19 +395,21 @@
         </Group>
         <Group>
           <GroupName>StdLib</GroupName>
-        </Group>
-        <Group>
-          <GroupName>Lib</GroupName>
           <Files>
+            <File>
+              <FileName>uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\FwLib\StdDriver\src\uart.c</FilePath>
+            </File>
             <File>
               <FileName>sys.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\FwLib\StdDriver\src\sys.c</FilePath>
             </File>
             <File>
-              <FileName>uart.c</FileName>
+              <FileName>common.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\FwLib\StdDriver\src\uart.c</FilePath>
+              <FilePath>.\FwLib\StdDriver\src\common.c</FilePath>
             </File>
             <File>
               <FileName>delay.c</FileName>
@@ -415,6 +417,9 @@
               <FilePath>.\FwLib\StdDriver\src\delay.c</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>Lib</GroupName>
         </Group>
       </Groups>
     </Target>
